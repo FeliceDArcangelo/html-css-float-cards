@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 21, 142);
+    padding-bottom: 1.5em;
+}
+
+header p{
+    padding-bottom: 1.5em;
+}
+
+.photos{
+    float: left;
+    height: 7.6em;
+    vertical-align: middle;
+    padding-right: 1em;
+}
+
+.box-style{
+    background-color: black;
+    max-width: 350px;
+    border: 1px solid grey;
+    border-style:double;
+}
+
+.box-info{
+    color: white;
+    padding-top: 1em;
+
+}
+
+.email{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: .8em;
+    color: rgb(0, 174, 255);
+}
